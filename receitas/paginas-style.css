@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    margin: auto;
+    box-shadow: 1px 1px 8px 0px #000000d4;
+}
+
+.header {
+    color: white;
+    background-color: rgb(96, 65, 37);
+    width: 100%;
+    padding: 30px;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.208);
+}
+
+img {
+    width: 350px;
+    margin: 10px auto;
+}
+
+button {
+    width: 100px;
+    margin: 5px auto 15px;
+    padding: 3px 7px;
+}
+
+button a {
+    text-decoration: none;
+    color: brown;
+    font-weight: 400;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.descricao p {
+    text-align: justify;
+}
+
+.ingredientes, 
+.modo-de-preparo  {
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.modo-de-preparo {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.modo-de-preparo li {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.lista.direita,
+.lista.esquerda {
+    padding: 10px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+    
