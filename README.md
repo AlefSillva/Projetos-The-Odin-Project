@@ -1,2 +1,2 @@
-# Receitas Odin
-Aqui está um projeto proposto pelo The Odin Project, onde criei uma página com algumas receitas.
+# Projetos T.O.P
+Esta pasta contém os projetos realizados durante o programa The Odin Project.
